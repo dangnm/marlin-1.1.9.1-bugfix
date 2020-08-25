@@ -438,7 +438,7 @@
    * differs, a mode set eeprom write will be completed at initialization.
    * Use the option below to force an eeprom write to a V3.1 probe regardless.
    */
-  #define BLTOUCH_SET_5V_MODE //Customized DBP
+  //#define BLTOUCH_SET_5V_MODE //Customized DBP
 
   /**
    * Safety: Activate if connecting a probe with an unknown voltage mode.
@@ -449,7 +449,7 @@
   //#define BLTOUCH_FORCE_MODE_SET
 
   // Safety: Enable voltage mode settings in the LCD menu.
-  #define BLTOUCH_LCD_VOLTAGE_MENU //Customized DBP
+  //#define BLTOUCH_LCD_VOLTAGE_MENU //Customized DBP
 
 #endif // BLTOUCH
 
@@ -583,10 +583,10 @@
 // @section lcd
 
 // Include a page of printer information in the LCD Main Menu
-#define LCD_INFO_MENU
+//#define LCD_INFO_MENU
 
 // Scroll a longer status message into view
-#define STATUS_MESSAGE_SCROLLING
+//#define STATUS_MESSAGE_SCROLLING
 
 // On the Info Screen, display XY with one decimal place when possible
 //#define LCD_DECIMAL_SMALL_XY
